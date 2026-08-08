@@ -31,10 +31,6 @@ for (const file of commandFiles) {
 // Global commands can take up to an hour to update in Discord.
 client.once('ready', async () => {
   console.log(`✅ Bot is online: ${client.user.tag}`);
-  if (!process.env.TOKEN) {
-    console.error('❌ TOKEN is missing. Add TOKEN to your .env file or server environment variables.');
-    return;
-  }
 
   const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
   try {
@@ -61,8 +57,6 @@ client.once('ready', async () => {
 });
 
 client.on('guildCreate', async guild => {
-  if (!process.env.TOKEN) return;
-
   try {
     const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
     await rest.put(
