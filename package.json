@@ -1,0 +1,16 @@
+{
+  "name": "merged-bot",
+  "version": "1.0.0",
+  "description": "بوت تذاكر + بوت دعوات/جوائز مدموجين ببوت واحد",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.17.2",
+    "dotenv": "^16.4.7"
+  }
+}
