@@ -9,8 +9,8 @@ const prizes = {
   ],
   super: [
     { prize: '200k', chance: 50 },
-    { prize: '300k', chance: 30 },
-    { prize: '400k', chance: 7 },
+    { prize: '5 rob', chance: 30 },
+    { prize: '10 rob', chance: 7 },
     { prize: '10m', chance: 0.000000001 },
     { prize: '1m', chance: 0.000000001 },
     { prize: '10m', chance: 0.01 },
