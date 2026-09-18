@@ -1,22 +1,22 @@
 // جدول الجوائز الخاص بعجلة الحظ (عادية / سوبر)
 const prizes = {
   normal: [
-    { prize: '200k', chance: 50 },
-    { prize: '500k', chance: 20 },
-    { prize: '750k', chance: 1 },
-    { prize: '1M', chance: 0.1 },
-    { prize: '10m', chance: 0.00001 },
+     { prize: '1 rob', chance: 50 },
+
+    { prize: '2 rob', chance: 20 },
+    { prize: '1 rob', chance: 1 },
+    { prize: '1 rob', chance: 0.1 },
+    { prize: '1 rob', chance: 0.00001 },
   ],
   super: [
-    { prize: '200k', chance: 50 },
-    { prize: '300k', chance: 30 },
-    { prize: '400k', chance: 7 },
-    { prize: '10m', chance: 0.000000001 },
-    { prize: '1m', chance: 0.000000001 },
-    { prize: '10m', chance: 0.01 },
-    { prize: '8m', chance: 0.00001 },
-    { prize: '2m', chance: 0.00001 },
-    { prize: '5m', chance: 0.00001 },
+    { prize: '5 rob', chance: 50 },
+    { prize: '5 rob', chance: 30 },
+    { prize: '10 rob', chance: 7 },
+    { prize: '10 rob', chance: 0.000000001 },
+    { prize: '10 rob', chance: 0.000000001 },
+    { prize: '10rob', chance: 0.00001 },
+    { prize: '10 rob', chance: 0.00001 },
+    { prize: '10 rob', chance: 0.00001 },
   ]
 };
 
