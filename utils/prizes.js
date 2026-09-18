@@ -2,7 +2,7 @@
 const prizes = {
   normal: [
      { prize: '1 rob', chance: 50 },
-
+ { prize: '2 rob', chance: 0.00000001 },
     { prize: '2 rob', chance: 20 },
     { prize: '1 rob', chance: 1 },
     { prize: '1 rob', chance: 0.1 },
